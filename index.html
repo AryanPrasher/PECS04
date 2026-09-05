@@ -1,51 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>MY Task Manager</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Task Manager</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        My Task Manager
+        <h1>My Task Manager</h1>
     </header>
 
-    <form>
+    <main>
 
-        <label>Task Name:</label>
-        <input type="text" name="task" placeholder="Enter your task">
+        <section class="card">
+            <h2>Add New Task</h2>
 
-        <br><br>
+            <form>
 
-        <label>Task Description:</label>
-        <br>
-        <textarea name="description" placeholder="Enter task description"></textarea>
+                <label for="task">Task Name:</label>
+                <input type="text" id="task" name="task"
+                    placeholder="Enter task name">
 
-        <br><br>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description"
+                    placeholder="Enter task description"></textarea>
 
-        <label>Priority:</label>
-        <select name="priority">
-            <option>Low</option>
-            <option>Medium</option>
-            <option>High</option>
-        </select>
+                <label for="priority">Priority:</label>
+                <select id="priority" name="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
 
-        <br><br>
+                <label for="date">Due Date:</label>
+                <input type="date" id="date" name="date">
 
-        <label>Due Date:</label>
-        <input type="date" name="date">
+                <button type="submit">Add Task</button>
 
-        <br><br>
+            </form>
+        </section>
 
-        <button type="submit">Add Task</button>
+        <section class="card">
+            <h2>My Tasks</h2>
 
-    </form>
+            <ul>
+                <li>Complete HTML assignment</li>
+                <li>Study for viva</li>
+                <li>Practice C++</li>
+            </ul>
+        </section>
 
-    <script src="" async defer></script>
+    </main>
+
+    <footer>
+        <p>My Task Manager</p>
+    </footer>
 
 </body>
 

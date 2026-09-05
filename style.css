@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+input,
+textarea,
+select {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+}
