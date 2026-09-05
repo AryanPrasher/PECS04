@@ -24,3 +24,7 @@ select {
 button {
     padding: 8px 15px;
 }
+
+label{
+    color: blueviolet;
+}
