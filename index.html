@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>MY Task Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <header>
+        My Task Manager
+    </header>
+
+    <form>
+
+        <label>Task Name:</label>
+        <input type="text" name="task" placeholder="Enter your task">
+
+        <br><br>
+
+        <label>Task Description:</label>
+        <br>
+        <textarea name="description" placeholder="Enter task description"></textarea>
+
+        <br><br>
+
+        <label>Priority:</label>
+        <select name="priority">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+        </select>
+
+        <br><br>
+
+        <label>Due Date:</label>
+        <input type="date" name="date">
+
+        <br><br>
+
+        <button type="submit">Add Task</button>
+
+    </form>
 
     <script src="" async defer></script>
+
 </body>
 
 </html>
