@@ -21,22 +21,29 @@ main {
 }
 
 .card {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid gray;
-    color: black;
-}
-
-input,
-textarea,
-select {
-    padding: 8px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);             
+  border-radius: 16px;                    
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  color: #222;
 }
 
 button {
     padding: 8px 15px;
 }
 
-label{
-    color: black;
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input, textarea, select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  padding: 8px;
 }
