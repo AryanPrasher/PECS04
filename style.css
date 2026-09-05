@@ -1,9 +1,18 @@
 body {
     font-family: Arial, sans-serif;
+    color: white;
+
+    background-image: url("https://i.pinimg.com/1200x/62/c2/6b/62c26bcd4651802cd51cf0c7bf433734.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 header {
     text-align: center;
+    color: black;
 }
 
 main {
@@ -11,8 +20,11 @@ main {
     margin: auto;
 }
 
-section {
+.card {
     margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid gray;
+    color: black;
 }
 
 input,
@@ -26,5 +38,5 @@ button {
 }
 
 label{
-    color: blueviolet;
+    color: black;
 }
